@@ -57,3 +57,18 @@ body {
     font-size: 24px; /* Tamaño de fuente más grande */
     color: white; /* Texto en color blanco */
 }
+
+#info-container {
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 24px; /* Aumentado el tamaño de la fuente */
+    color: #ff1493; /* Cambiado a rosa */
+}
+
+#moves {
+    font-size: 24px; /* Aumentado el tamaño de la fuente */
+    margin-top: 10px;
+    color: #ff1493; /* Cambiado a rosa */
+}
