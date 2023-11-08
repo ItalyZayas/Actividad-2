@@ -1,0 +1,59 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f0f0f0;
+    background-color: #964B00; /* Café */
+}
+
+#puzzle-container {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 20px auto;
+    background-color: #ccc;
+}
+
+.puzzle-piece {
+    width: 70px;
+    height: 70px;
+    background-color: #ff1493; /* Cambiado a rosa */
+    color: white;
+    font-size: 28px; /* Aumentado el tamaño de la fuente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+.empty-piece {
+    background-color: #ccc;
+}
+
+#shuffle-button {
+    background-color: #502ecc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#info-container {
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 24px; /* Aumentado el tamaño de la fuente */
+    color: #ff1493; /* Cambiado a rosa */
+}
+
+#moves {
+    font-size: 24px; /* Aumentado el tamaño de la fuente */
+    margin-top: 10px;
+    color: #ff1493; /* Cambiado a rosa */
+}
