@@ -36,24 +36,24 @@ body {
 }
 
 #shuffle-button {
-    background-color: #502ecc;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ff0000; /* Color rojo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#info-container {
-    margin-top: 20px;
+#shuffle-button:hover {
+    background-color: #ff6666; /* Color rojo claro al pasar el cursor */
 }
 
-#timer {
-    font-size: 24px; /* Aumentado el tamaño de la fuente */
-    color: #ff1493; /* Cambiado a rosa */
-}
-
-#moves {
-    font-size: 24px; /* Aumentado el tamaño de la fuente */
-    margin-top: 10px;
-    color: #ff1493; /* Cambiado a rosa */
+#shuffle-button span {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    color: white; /* Texto en color blanco */
 }
