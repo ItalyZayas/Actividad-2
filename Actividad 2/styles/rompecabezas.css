@@ -2,11 +2,11 @@ body {
     font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     text-align: center;
-    background-color: #f0f0f0;
     background-color: #964B00; /* Café */
-}
-
-#puzzle-container {
+ }
+ 
+ 
+ #puzzle-container {
     width: 300px;
     height: 300px;
     display: grid;
@@ -15,9 +15,10 @@ body {
     grid-gap: 5px;
     margin: 20px auto;
     background-color: #ccc;
-}
-
-.puzzle-piece {
+ }
+ 
+ 
+ .puzzle-piece {
     width: 70px;
     height: 70px;
     background-color: #ff1493; /* Cambiado a rosa */
@@ -29,13 +30,15 @@ body {
     cursor: pointer;
     user-select: none;
     transition: background-color 0.3s;
-}
-
-.empty-piece {
+ }
+ 
+ 
+ .empty-piece {
     background-color: #ccc;
-}
-
-#shuffle-button {
+ }
+ 
+ 
+ #shuffle-button {
     position: absolute;
     top: 50%;
     left: 5%;
@@ -47,28 +50,55 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#shuffle-button:hover {
+ }
+ 
+ 
+ #shuffle-button:hover {
     background-color: #ff6666; /* Color rojo claro al pasar el cursor */
-}
-
-#shuffle-button span {
+ }
+ 
+ 
+ #shuffle-button span {
     font-size: 24px; /* Tamaño de fuente más grande */
     color: white; /* Texto en color blanco */
-}
-
-#info-container {
+ }
+ 
+ 
+ #info-container {
     margin-top: 20px;
-}
-
-#timer {
-    font-size: 24px; /* Aumentado el tamaño de la fuente */
-    color: #ff1493; /* Cambiado a rosa */
-}
-
-#moves {
+ }
+ 
+ 
+ #moves {
     font-size: 24px; /* Aumentado el tamaño de la fuente */
     margin-top: 10px;
     color: #ff1493; /* Cambiado a rosa */
-}
+ }
+ 
+ 
+ #reference-matrix {
+    text-align: center;
+    margin-top: 20px;
+ }
+ 
+ 
+ #initial-state {
+    margin-right: 50px;
+ }
+ 
+ 
+ #initial-state p {
+    font-weight: bold;
+ }
+ 
+ 
+ #initial-state ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ 
+ 
+ #initial-state li {
+    margin-bottom: 10px;
+ }
+ 
